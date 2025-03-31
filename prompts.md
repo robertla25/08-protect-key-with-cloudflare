@@ -1,0 +1,2 @@
+## Using Cloudflare
+Give simple beginner-friendly steps to create a Cloudflare Worker via the dashboard (no coding tools) that securely stores an OpenAI API key and makes a basic Chat Completions API request, returning the response.
