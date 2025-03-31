@@ -21,7 +21,9 @@ export default {
     const requestBody = {
       model: 'gpt-4o',
       messages: userInput.messages,
-      max_tokens: 500
+      max_completion_tokens: 800,
+      temperature: 0.5,
+      frequency_penalty: 0.8,
     };
 
     const response = await fetch(apiUrl, {
