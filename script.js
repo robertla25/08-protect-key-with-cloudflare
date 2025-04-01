@@ -11,7 +11,7 @@ let messages = [
 ];
 
 // REPLACE with your actual Cloudflare Worker URL
-const workerUrl = 'https://your-worker-name.your-subdomain.workers.dev';
+const workerUrl = 'openai-worker.your-subdomain.workers.dev';
 
 // Add event listener to the form
 chatForm.addEventListener('submit', async (event) => {
